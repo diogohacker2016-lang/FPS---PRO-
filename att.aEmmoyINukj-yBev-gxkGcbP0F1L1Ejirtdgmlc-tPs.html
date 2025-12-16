@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dicas FPS - Configurações Competitivas (R$29,99)</title>
+  <meta name="description" content="Guia prático de configurações para ganhar FPS em jogos competitivos. Dicas testadas para CS:GO, Valorant, Apex e mais.">
+  <style>
+    :root{--accent:#ff6b35;--bg:#0f1115;--card:#121318;--muted:#9aa3b2;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#e6eef6;background:linear-gradient(180deg,#071021 0%, #0d1624 100%);-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:36px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ff9a66);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .cta{background:var(--accent);border:none;padding:12px 18px;border-radius:10px;color:#071021;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(255,107,53,0.18)}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:26px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6);}
+    .price{font-size:20px;font-weight:800;color:var(--accent)}
+    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
+    .feature{background:var(--glass);padding:10px;border-radius:8px;font-size:14px;color:var(--muted)}
+    .games{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .game{display:flex;gap:12px;align-items:center;padding:10px;background:rgba(255,255,255,0.02);border-radius:10px}
+    .game img{width:120px;height:70px;object-fit:cover;border-radius:8px}
+    .game h4{margin:0;font-size:16px}
+    .tips{margin-top:16px;line-height:1.5;color:#cfe7ff}
+    .footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+    .testimonials{display:flex;gap:10px;flex-direction:column;margin-top:12px}
+    .testi{background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;color:#dbeffd}
+    .faq{margin-top:12px}
+    .faq h5{margin:8px 0}
+    /* Modal */
+    .modal-bg{position:fixed;inset:0;background:rgba(2,6,23,0.6);display:none;align-items:center;justify-content:center;padding:20px}
+    .modal{background:#071425;padding:20px;border-radius:12px;max-width:520px;width:100%;color:#dff0ff}
+    .close{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 10px;border-radius:8px;color:var(--muted);cursor:pointer}
+    .buy-now{display:flex;gap:10px;margin-top:12px;align-items:center;justify-content:space-between}
+    .pill{background:#071425;border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:999px;color:var(--muted);font-weight:700}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.games{grid-template-columns:1fr}.brand h1{font-size:18px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">FPS</div>
+        <div>
+          <h1>Dicas FPS — Configurações Competitivas</h1>
+          <p class="lead">Guia prático e testado para ganhar mais FPS em jogos competitivos — conteúdo simples, direto e que funciona.</p>
+        </div>
+      </div>
+      <div>
+        <div class="price">R$29,99</div>
+        <button class="cta" id="openBuy">Comprar</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <h2>O que você recebe</h2>
+        <div class="features">
+          <div class="feature">Checklist passo-a-passo</div>
+          <div class="feature">Configs recomendadas por jogo</div>
+          <div class="feature">Ajustes para Windows e drivers</div>
+          <div class="feature">Dicas de rede e estabilidade</div>
+        </div>
+
+        <h3 style="margin-top:18px">Jogos incluídos</h3>
+        <div class="games">
+          <div class="game">
+            <img src="https://via.placeholder.com/600x400?text=CS%3AGO" alt="CS:GO">
+            <div>
+              <h4>CS:GO</h4>
+              <div style="color:var(--muted);font-size:13px">Alta taxa de atualização, resolução e mira estável.</div>
+            </div>
+          </div>
+
+          <div class="game">
+            <img src="https://via.placeholder.com/600x400?text=Valorant" alt="Valorant">
+            <div>
+              <h4>Valorant</h4>
+              <div style="color:var(--muted);font-size:13px">Maximizar FPS sem perder clareza visual.</div>
+            </div>
+          </div>
+
+          <div class="game">
+            <img src="https://via.placeholder.com/600x400?text=Apex+Legends" alt="Apex Legends">
+            <div>
+              <h4>Apex Legends</h4>
+              <div style="color:var(--muted);font-size:13px">Balanceamento CPU/GPU para mapas grandes.</div>
+            </div>
+          </div>
+
+          <div class="game">
+            <img src="https://via.placeholder.com/600x400?text=Fortnite" alt="Fortnite">
+            <div>
+              <h4>Fortnite</h4>
+              <div style="color:var(--muted);font-size:13px">Escala dinâmica e configurações de shading.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tips">
+          <h3>Dicas que realmente funcionam (resumo)</h3>
+          <ul>
+            <li><strong>Drivers atualizados:</strong> mantenha drivers NVIDIA/AMD e DirectX atualizados.</li>
+            <li><strong>Plano de energia:</strong> selecione "Alto desempenho" no Windows e perfil máximo na GPU.</li>
+            <li><strong>Escala de resolução/Render Scale:</strong> baixe levemente para 95–90% para ganhos grandes sem perda visível.</li>
+            <li><strong>Desative processos desnecessários:</strong> feche apps em segundo plano (Discord, navegadores, etc.).</li>
+            <li><strong>NVIDIA/AMD:</strong> defina "Prefer maximum performance" e desative filtros que consumam GPU.</li>
+            <li><strong>Modo de Jogo e otimizações:</strong> habilite Game Mode, desative gravação automática/overlay se causar queda.</li>
+            <li><strong>Configurações no jogo:</strong> sombras e pós-processamento em baixo, texturas balanceadas conforme VRAM.</li>
+            <li><strong>Prioridade do processo:</strong> defina prioridade alta para o jogo (com cuidado).</li>
+            <li><strong>Rede:</strong> use Ethernet quando possível e priorize traffic shaping no roteador.</li>
+          </ul>
+          <p style="color:var(--muted);font-size:13px">Essas são as dicas gerais; o guia contém passos detalhados, comandos e checks por jogo.</p>
+        </div>
+
+        <div class="testimonials">
+          <div class="testi">"Ganhei ~25% de FPS no meu setup antigo — as dicas de driver e escala foram excelentes." — Lucas</div>
+          <div class="testi">"Simples, direto e funcionou em Valorant. Recomendo." — Marina</div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h3>Compra rápida</h3>
+        <div style="margin-top:8px;color:var(--muted)">Receba o guia em PDF + página interativa com screenshots por jogo imediatamente após o pagamento.</div>
+        <div style="margin-top:14px" class="pill">Preço único: <strong style="margin-left:8px;color:#fff">R$29,99</strong></div>
+
+        <div style="margin-top:14px">
+          <h4>O que contém no PDF</h4>
+          <ul style="color:var(--muted);line-height:1.6">
+            <li>Passo-a-passo de otimização</li>
+            <li>Comandos e launch options</li>
+            <li>Checagem de hardware e sugestões</li>
+            <li>Imagens e exemplos por jogo</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:12px">
+          <button class="cta" id="openBuy2">Comprar agora</button>
+        </div>
+
+        <div class="faq">
+          <h4>Perguntas rápidas</h4>
+          <h5>É compatível com qualquer PC?</h5>
+          <div style="color:var(--muted);font-size:13px">Sim — o guia tem seções para PCs de baixo, médio e alto desempenho.</div>
+          <h5>Posso pedir reembolso?</h5>
+          <div style="color:var(--muted);font-size:13px">Sim, reembolso em até 7 dias se não ficar satisfeito.</div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer">Produzido por Dicas FPS • Conteúdo digital entregue por link após confirmação de pagamento.</div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-bg" id="modal">
+    <div class="modal">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:18px;font-weight:800">Finalizar compra — R$29,99</div>
+          <div style="color:var(--muted);font-size:13px">Escolha um método de pagamento abaixo.</div>
+        </div>
+        <button class="close" id="closeModal">Fechar</button>
+      </div>
+
+      <div class="buy-now">
+        <div style="flex:1;margin-top:12px">
+          <strong>Pix (recomendado)</strong>
+          <div style="color:var(--muted);font-size:13px;margin-top:6px">Chave Pix: <span style="color:#fff">seu-email@exemplo.com</span></div>
+          <div style="color:var(--muted);font-size:13px">Após o pagamento, envie o comprovante por email e você receberá o PDF.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;color:var(--muted);font-size:13px">
+        <strong>Observação:</strong> este é um modelo de site. Para receber o produto automaticamente, é preciso integrar um gateway de pagamento (ex: PagSeguro, Mercado Pago, Stripe). Posso te ajudar a integrar se quiser.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('openBuy').addEventListener('click', open);
+    document.getElementById('openBuy2').addEventListener('click', open);
+    document.getElementById('closeModal').addEventListener('click', close);
+    document.getElementById('modal').addEventListener('click', function(e){ if(e.target===this) close(); });
+    function open(){document.getElementById('modal').style.display='flex'}
+    function close(){document.getElementById('modal').style.display='none'}
+  </script>
+</body>
+</html>
